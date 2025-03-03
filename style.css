@@ -30,13 +30,18 @@ main h1 {
     /* box-shadow: 10px 0 white;
     /* box-shadow: 0 0 10px 5px rgba(0,0,0,0.3); */
     box-shadow: 0 0 50px 20px rgba(255, 255, 255, 0.3);
-    /* border: 2px solid white; */
+    border: 1px solid white;
     /* width: 400px; */
     /* height: 150px; */
+
     padding: 10px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+main h5{
+    color: white;
 }
 
 /* CLICK ME BUTTON ON THE FIRST DIVISION */
@@ -95,7 +100,7 @@ main button:hover {
     /* justify-content: center; */
     align-items: center;
     flex-direction: column;
-    gap: 30px;
+    /* gap: 30px; */
     border-radius: 10px;
     
 }
@@ -113,6 +118,73 @@ main button:hover {
     color: rgb(74, 74, 255);
     margin-top: 20px;
 }
+
+
+
+.sound-waves{
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+}
+
+.line1{
+    height: 10px;
+    width: 20px;
+    background-color: black;
+    /* transition: 0.2s; */
+    /* animation-name: line1; */
+    animation: lineee 0.5s infinite;
+    /* transform: scaleY(2); */
+}
+
+.line2{
+    height: 10px;
+    width: 20px;
+    background-color: black;
+    /* transition: 0.2s; */
+    /* animation-name: line1; */
+    animation: lineee 0.5s infinite;
+    animation-delay: 0.2s;
+}
+
+
+.line3{
+    height: 10px;
+    width: 20px;
+    background-color: black;
+    /* transition: 0.2s; */
+    /* animation-name: line1; */
+    animation: lineee 0.5s infinite;
+    animation-delay: 0.4s;
+}
+
+
+.line4{
+    height: 10px;
+    width: 20px;
+    background-color: black;
+    /* transition: 0.2s; */
+    /* animation-name: line1; */
+    animation: lineee 0.5s infinite;
+    animation-delay: 0.1s;
+}
+
+@keyframes lineee {
+    0%{
+        /* background-color: red; */
+        transform: scaleY(1);
+        /* height: 20px; */
+    }
+    50%{
+        /* background-color: green; */
+        transform: scaleY(4);
+        /* height: 100px; */
+    }
+    100%{
+        transform: scaleY(1);
+    }
+}
+
 
 /* DIVISION 4; GET CONTACT BOX */
 .getincontact {
@@ -143,7 +215,7 @@ main button:hover {
     align-items: center;
     flex-direction: column;
     box-shadow: 15px 15px black;
-    border: 3px solid black;
+    border: 7px solid black;
     color: white;
     transition: 0.2s ease-in-out;
 }
@@ -329,7 +401,7 @@ color: white;
     background-color: rgb(0, 64, 255);
     height: 170px;
     transition: 0.2s;
-    border: 5px solid #e7cc55;
+    border: 6px solid #e7cc55;
     background-image: url(https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-52393.jpg);
     background-size: cover;
     /* text-overflow: hi; */
@@ -348,3 +420,5 @@ color: white;
 }
 
 /* https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-52393.jpg */
+
+
