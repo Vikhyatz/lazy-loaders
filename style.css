@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* universl properties */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* DIVISION 1 */
+
+/* OUR TEAM, MEMBERS NAME, CLICK ME BUTTON */
+main {
+    background: url(./newimage.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/*OUR TEAM BOX */
+main h1 {
+    font-size: 70px;
+    color: white;
+    font-weight: 500;
+    background-color: black;
+    border-radius: 10px;
+    /* box-shadow: 10px 0 white;
+    /* box-shadow: 0 0 10px 5px rgba(0,0,0,0.3); */
+    box-shadow: 0 0 50px 20px rgba(255, 255, 255, 0.3);
+    /* border: 2px solid white; */
+    /* width: 400px; */
+    /* height: 150px; */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CLICK ME BUTTON ON THE FIRST DIVISION */
+main button {
+    padding: 10px;
+    width: 100px;
+    border-radius: 40px;
+    background-color: black;
+    color: #ffdbac;
+
+    outline: 0;
+    border: 0;
+    transition: 0.2s;
+    margin-top: 15px;
+    border: 2px solid #ffdbac;
+}
+/* CLICK ME HOVER  */
+main button:hover {
+    background-color: #ffdbac;
+    color: black;
+}
+
+
+
+
+
+/* DIVISION 3 */
+
+/* OUR TEAM TEAM TIONINGOIN */
+.our-team {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(27, 123, 161);
+}
+
+/* CARDS POSITIONING */
+.cards {
+    display: flex;
+    gap: 100px;
+    margin-top: 20px;
+    
+}
+
+
+/* CARD PROPERTIES */
+.card {
+    background-color: #ffdbac;
+    width: 300px;
+    height: 450px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 10px;
+    
+}
+
+
+/* CARD PHOTO */
+.card img {
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+/* CARD TEXT PROPERTIES */
+.card div {
+    text-align: center;
+    color: rgb(74, 74, 255);
+    margin-top: 20px;
+}
+
+/* DIVISION 4; GET CONTACT BOX */
+.getincontact {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+/* color codes for convenience */
+/* #FE2D97, #F9B0CB,*/
+/* #00008A */
+
+
+/* contact box properties */
+.contactbox {
+    width: 600px;
+    height: 350px;
+    /* background-color: pink; */
+    background-image: linear-gradient(to right, #FE2D97, #00008A, #FE2D97);
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 15px 15px black;
+    border: 3px solid black;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+
+.contactbox:hover {
+    box-shadow: 0 0;
+}
+
+.contactbox p {
+    width: 500px;
+    font-size: 20px;
+}
+
+.contactbutton {
+    /* padding: 15px;
+    margin-top: 10px;
+    color: black;
+    background-color: yellowgreen;
+    transition: 0.2s;
+    font-weight: 600; */
+
+
+    display: inline-block;
+    padding: 0.9rem 1.8rem;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    border: 3px solid yellowgreen;
+    cursor: pointer;
+    position: relative;
+    background-color: transparent;
+    text-decoration: none;
+    overflow: hidden;
+    z-index: 1;
+    font-family: inherit;
+    margin-top: 20px;
+}
+
+
+.contactbutton::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: yellowgreen;
+    transform: translateY(100%);
+    transition: all .3s;
+    z-index: -1;
+}
+.contactbutton:hover{
+    color: black;
+    border: 3px solid black;
+}
+.contactbutton:hover::before {
+    transform: translateX(0);
+    background-color: #4169e1;
+}
+
+
+.contactbutton:hover {}
+
+
+main h3 {
+    color: white;
+}
+
+
+.cards2 {
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+    color: white;
+    background-color: rgb(27, 123, 161);
+    /* margin-top: 50px; */
+}
+
+.cards2h1 {
+    color: black;
+}
+
+.card3 {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+
+.cards2 .cardd {
+    width: 270px;
+    height: 400px;
+    background-color: rgb(51, 51, 255);
+    border: 7px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.2s;
+    color: black;
+}
+
+.hidden {
+    /* visibility: hidden; */
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.cardd h1 {
+    transition: 0.2s;
+
+}
+
+.cardd:hover h1 {
+    /* visibility: hidden; */
+    opacity: 0;
+    transform: translate(0, -20px);
+}
+
+.cardd p {
+    font-weight: 500;
+    font-size: 20px;
+    transform: rotate(50deg);
+}
+
+.cardd:hover p {
+    /* visibility: visible;
+     */
+     opacity: 1;
+    transform: translate(0, -20px);
+}
+
+#members{
+
+
+color: white;
+
+}
+
+
+
+
+.our-projects{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.projects-head{
+    width: 900px;
+    height: 500px;
+    /* background-color: black; */
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(255, 196, 0); */
+    /* background-color: #edc001; */
+    background-size: cover;
+    gap: 10px;
+}
+
+.row{
+    width: 280px;
+    height: 480px;
+    /* background-color: #edc001; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 10px;
+}
+
+.row div{
+    background-color: rgb(0, 64, 255);
+    height: 170px;
+    transition: 0.2s;
+    border: 5px solid #e7cc55;
+    background-image: url(https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-52393.jpg);
+    background-size: cover;
+    /* text-overflow: hi; */
+    overflow: hidden;
+    color: white;
+    font-size: 15px;
+
+    /* border-block: 10px solid black;    */
+}
+
+
+.row div:hover{
+    /* border-block: 20px solid black; */
+    /* transform: scaleY(2); */
+    height: 500px;
+}
+
+/* https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-52393.jpg */
